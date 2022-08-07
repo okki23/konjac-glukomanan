@@ -1,0 +1,39 @@
+/* ----------------------------
+ * Theme Color
+ * --------------------------- */
+ 
+.sidebar .topmenu li > .submenu > li.active:after,
+.sidebar .mainmenu li > .submenu > li.active:after {
+	background-color:#276FB7;
+}
+
+@media (max-width: 767px) {
+	#header.navbar .navbar-header {
+		background-color: #1E3E63;
+	}
+	.logo-text {
+		background-image: url("../../allwebcore/img/logo/IndoPremierLogoWhite.svg");
+		width: 120px;
+		background-size: 120px 50px;
+	}
+}
+
+/* Sidebar & screen-sm and up */
+
+@media (min-width: 768px) {
+	#header.navbar .navbar-header > .navbar-brand {
+		width: 172px;
+	}
+	
+	.logo-text {
+		background-image: url("../../allwebcore/img/logo/IndoPremierLogoBlue.svg");
+		width: 150px;
+		background-size: 150px 50px;
+	}
+	
+	.whiteheader .logo-text {
+		background-image: url("../../allwebcore/img/logo/IndoPremierLogoWhite.svg");
+		width: 150px;
+		background-size: 150px 50px;
+	}
+}
